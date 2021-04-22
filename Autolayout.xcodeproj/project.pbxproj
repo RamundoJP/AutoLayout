@@ -13,6 +13,11 @@
 		C88EFAF7262E15C000A35C51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C88EFAF5262E15C000A35C51 /* Main.storyboard */; };
 		C88EFAF9262E15C000A35C51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C88EFAF8262E15C000A35C51 /* Assets.xcassets */; };
 		C88EFAFC262E15C000A35C51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C88EFAFA262E15C000A35C51 /* LaunchScreen.storyboard */; };
+		C88EFB05262F2A4F00A35C51 /* SwipingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88EFB04262F2A4F00A35C51 /* SwipingController.swift */; };
+		C88EFB08262F35AD00A35C51 /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88EFB07262F35AD00A35C51 /* PageCell.swift */; };
+		C88EFB0B26305E1C00A35C51 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88EFB0A26305E1C00A35C51 /* Page.swift */; };
+		C88EFB0E263068D300A35C51 /* SwipingController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88EFB0D263068D300A35C51 /* SwipingController+Extension.swift */; };
+		C88EFB13263069B800A35C51 /* SwipingController+UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88EFB12263069B800A35C51 /* SwipingController+UICollectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		C88EFAF8262E15C000A35C51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C88EFAFB262E15C000A35C51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C88EFAFD262E15C000A35C51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C88EFB04262F2A4F00A35C51 /* SwipingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipingController.swift; sourceTree = "<group>"; };
+		C88EFB07262F35AD00A35C51 /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
+		C88EFB0A26305E1C00A35C51 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		C88EFB0D263068D300A35C51 /* SwipingController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwipingController+Extension.swift"; sourceTree = "<group>"; };
+		C88EFB12263069B800A35C51 /* SwipingController+UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwipingController+UICollectionView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,11 @@
 				C88EFAF8262E15C000A35C51 /* Assets.xcassets */,
 				C88EFAFA262E15C000A35C51 /* LaunchScreen.storyboard */,
 				C88EFAFD262E15C000A35C51 /* Info.plist */,
+				C88EFB04262F2A4F00A35C51 /* SwipingController.swift */,
+				C88EFB07262F35AD00A35C51 /* PageCell.swift */,
+				C88EFB0A26305E1C00A35C51 /* Page.swift */,
+				C88EFB0D263068D300A35C51 /* SwipingController+Extension.swift */,
+				C88EFB12263069B800A35C51 /* SwipingController+UICollectionView.swift */,
 			);
 			path = Autolayout;
 			sourceTree = "<group>";
@@ -137,9 +152,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C88EFB13263069B800A35C51 /* SwipingController+UICollectionView.swift in Sources */,
 				C88EFAF4262E15C000A35C51 /* ViewController.swift in Sources */,
+				C88EFB08262F35AD00A35C51 /* PageCell.swift in Sources */,
+				C88EFB0B26305E1C00A35C51 /* Page.swift in Sources */,
 				C88EFAF0262E15C000A35C51 /* AppDelegate.swift in Sources */,
 				C88EFAF2262E15C000A35C51 /* SceneDelegate.swift in Sources */,
+				C88EFB0E263068D300A35C51 /* SwipingController+Extension.swift in Sources */,
+				C88EFB05262F2A4F00A35C51 /* SwipingController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
